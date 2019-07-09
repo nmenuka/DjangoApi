@@ -1,0 +1,19 @@
+[[source]]
+name = "pypi"
+url = "https://pypi.org/simple"
+verify_ssl = true
+
+[dev-packages]
+pylint = "*"
+
+[packages]
+django = "==2.2.2"
+djangorestframework = "*"
+markdown = "*"
+django-filter = "*"
+pillow = "*"
+djangorestframework-simplejwt = "*"
+pyjwt = "*"
+
+[requires]
+python_version = "3.6"
