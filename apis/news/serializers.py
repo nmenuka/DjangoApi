@@ -12,4 +12,4 @@ from apis.news.models import News, NewsComment
 class NewsSerializer(serializers.ModelSerializer):
     class Meta:
         model = News
-        fields = ('title','content','author','category')
+        fields = ('title','content','author','created_at','category')
